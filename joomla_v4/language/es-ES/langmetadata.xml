@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<metafile client="api">
+<metafile client="site">
 	<name>Spanish (es-ES)</name>
 	<version>4.0.0-rc4.2</version>
 	<creationDate>2021/07/23</creationDate>
@@ -8,7 +8,7 @@
 	<authorUrl>https://traduccion.joomlaes.org/</authorUrl>
 	<copyright>Copyright (C) 2005 - 2021 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later</license>
-	<description><![CDATA[<p>Spanish [es-ES] language pack (api) for Joomla!</p>]]></description>
+	<description><![CDATA[<p>Russian language pack (site) for Joomla!</p>]]></description>
 	<metadata>
 		<name>Spanish (es-ES)</name>
 		<nativeName>Español (España)</nativeName>
