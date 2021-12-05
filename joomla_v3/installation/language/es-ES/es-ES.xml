@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile
-	version="3.9"
+	version="3.10"
 	client="installation">
 	<name>Spanish (ES)</name>
-	<version>3.10.3.1</version>
-	<creationDate>2021-09-18</creationDate>
+	<version>3.10.4.1</version>
+	<creationDate>2021-12-05</creationDate>
 	<author>Spanish Translation Team</author>
 	<copyright>Copyright (C) 2005 - 2020 Open Source Matters. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
