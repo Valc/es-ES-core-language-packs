@@ -22,16 +22,16 @@
  */
 abstract class Es_ESLocalise
 {
-    /**
-     * Returns the potential suffixes for a specific number of items
-     *
-     * @param   integer  $count  The number of items.
-     *
-     * @return  array  An array of potential suffixes.
-     *
-     * @since   1.6
-     */
-    public static function getPluralSuffixes($count)
+	/**
+	 * Returns the potential suffixes for a specific number of items
+	 *
+	 * @param   integer  $count  The number of items.
+	 *
+	 * @return  array  An array of potential suffixes.
+	 *
+	 * @since   1.6
+	 */
+	public static function getPluralSuffixes($count)
 	{
 		if ($count == 0) {
 			return ['0'];
@@ -42,51 +42,51 @@ abstract class Es_ESLocalise
 		}
 	}
 
-    /**
-     * Returns the ignored search words
-     *
-     * @return  array  An array of ignored search words.
-     *
-     * @since   1.6
-     */
-    public static function getIgnoredSearchWords()
-    {
-        return ['y', 'en', 'con'];
-    }
+	/**
+	 * Returns the ignored search words
+	 *
+	 * @return  array  An array of ignored search words.
+	 *
+	 * @since   1.6
+	 */
+	public static function getIgnoredSearchWords()
+	{
+		return ['y', 'en', 'con'];
+	}
 
-    /**
-     * Returns the lower length limit of search words
-     *
-     * @return  integer  The lower length limit of search words.
-     *
-     * @since   1.6
-     */
-    public static function getLowerLimitSearchWord()
-    {
-        return 3;
-    }
+	/**
+	 * Returns the lower length limit of search words
+	 *
+	 * @return  integer  The lower length limit of search words.
+	 *
+	 * @since   1.6
+	 */
+	public static function getLowerLimitSearchWord()
+	{
+		return 3;
+	}
 
-    /**
-     * Returns the upper length limit of search words
-     *
-     * @return  integer  The upper length limit of search words.
-     *
-     * @since   1.6
-     */
-    public static function getUpperLimitSearchWord()
-    {
-        return 20;
-    }
+	/**
+	 * Returns the upper length limit of search words
+	 *
+	 * @return  integer  The upper length limit of search words.
+	 *
+	 * @since   1.6
+	 */
+	public static function getUpperLimitSearchWord()
+	{
+		return 20;
+	}
 
-    /**
-     * Returns the number of chars to display when searching
-     *
-     * @return  integer  The number of chars to display when searching.
-     *
-     * @since   1.6
-     */
-    public static function getSearchDisplayedCharactersNumber()
-    {
-        return 200;
-    }
+	/**
+	 * Returns the number of chars to display when searching
+	 *
+	 * @return  integer  The number of chars to display when searching.
+	 *
+	 * @since   1.6
+	 */
+	public static function getSearchDisplayedCharactersNumber()
+	{
+		return 200;
+	}
 }

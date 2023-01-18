@@ -22,16 +22,16 @@
  */
 abstract class Es_ESLocalise
 {
-    /**
-     * Returns the potential suffixes for a specific number of items
-     *
-     * @param   integer  $count  The number of items.
-     *
-     * @return  array  An array of potential suffixes.
-     *
-     * @since   1.6
-     */
-    public static function getPluralSuffixes($count)
+	/**
+	 * Returns the potential suffixes for a specific number of items
+	 *
+	 * @param   integer  $count  The number of items.
+	 *
+	 * @return  array  An array of potential suffixes.
+	 *
+	 * @since   1.6
+	 */
+	public static function getPluralSuffixes($count)
 	{
 		if ($count == 0) {
 			return ['0'];
